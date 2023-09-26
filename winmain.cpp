@@ -28,3 +28,6 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance,
 
 	return 0;
 }
+
+// 4. '윈도우프로시저' 작성 - Event Handler
+LRESULT CALLBACK WindowProc(HWND hwnd, UINT)
